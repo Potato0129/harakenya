@@ -1,0 +1,37 @@
+#midHead {
+  background-image: url(../img/midHead_img2.png);
+}
+.bannerLine {
+  width: 607.5px;
+  height: 2px;
+  background-color: white;
+}
+.leftCon {
+  border-right: 2px solid black;
+  width: 846px;
+}
+.rightCon {
+  height: 621px;
+  border: none;
+}
+@media (max-width: 1400px) {
+  .bannerLine {
+    width: 300px;
+  }
+  .mainText2 {
+    width: 600px;
+  }
+  .tableText {
+    width: 600px;
+  }
+  #mainNextText {
+    width: 600px;
+  }
+  .leftCon {
+    border-right: 2px solid black;
+    width: 700px;
+  }
+  #sebPartImg {
+    display: none;
+  }
+}

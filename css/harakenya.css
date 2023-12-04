@@ -1,0 +1,37 @@
+.bannerLine {
+  width: 199px;
+  height: 2px;
+  background-color: white;
+}
+#midHead {
+  background-image: url(../img/midHead_img1.png);
+}
+.leftCon {
+  border-right: 2px solid black;
+  width: 524px;
+}
+.rightCon {
+  height: 795.5px;
+  border: none;
+}
+#sebPartImg {
+  width: 594px;
+  height: 616px;
+  margin: 0 auto;
+  background-image: url(../img/harakenya/img1.png);
+}
+.footnote {
+  margin-top: 80px;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 50%;
+}
+
+@media (max-width: 1400px) {
+  .bannerLine {
+    width: 80px;
+  }
+  #sebPartImg {
+    display: none;
+  }
+}
